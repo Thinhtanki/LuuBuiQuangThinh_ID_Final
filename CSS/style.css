@@ -82,17 +82,17 @@ body {
 .graphicD {
 	width: 60%;
 	background: #FF6E00;
-	animation: graphicD 4s 2s linear;
+	animation: graphicD 3s 2s linear;
 }
 .webD {
 	width: 40%;
 	background: #cd2027;
-	animation: webD 4s 2s linear;
+	animation: webD 3s 2s linear;
 }
 .vodka {
 	width: 0%;
 	background: #00FF15;
-	animation: vodka 6s 2s linear;
+	animation: vodka 5s 2s linear;
 }
 @keyframes graphicD {
 	0% {
