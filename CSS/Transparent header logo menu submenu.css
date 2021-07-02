@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*Transparent header with logo section, menu and sub-menu*/
+header {
+	width: 100%;
+	position: absolute;
+	padding-top: 20px;
+	z-index: 99;
+}
+.logo {
+/*	background: red;*/
+}
+.logo a {
+	text-decoration: none;
+	font-size: 32px;
+	color: aliceblue;
+	margin-left: 20px;
+}
+.menu {
+/*	background: green;*/
+	height: 100%;
+	margin-right: 20px;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	height: 100%;
+	align-items: center;
+}
+.menu ul li {
+	margin: 0 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: aliceblue;
+}
+.sub a {
+	color: #cd2027 !important;
+}
+.sub-menu {
+/*	background: aliceblue;*/
+	position: absolute;
+	display: block !important;
+	top: 50px;
+	padding-top: 10px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 9999;
+	width: 120px;
+	right: 30px;
+	text-align: center!important;
+}
+.menu ul li:hover .sub-menu{
+	visibility: visible;
+	opacity: 1;
+}
